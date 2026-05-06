@@ -5,5 +5,5 @@ package seminario.mockito;
  * Será nosso "Dublê" (Mock) nos testes.
  */
 public interface UserRepository {
-    boolean findByCredentials(String user, String password);
+    boolean findByCredentials(String user, String password); //
 }

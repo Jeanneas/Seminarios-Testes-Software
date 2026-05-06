@@ -40,6 +40,6 @@ public class LoginServiceTest {
         String resultado = loginService.logar("admin", "errada");
 
         // THEN
-        assertEquals("Usuário ou Senha Inválidos", resultado);
+        assertEquals("Usuário ou Senha Inválidos", resultado); //
     }
 }
